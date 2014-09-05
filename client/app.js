@@ -6,12 +6,12 @@ angular.module('myApp', ['myApp.directives', 'ngRoute'])
         controller: 'FormController'
       })
 
-      .when('/login',{
+      .when('/login', {
         templateUrl: 'views/loginView.html',
         controller: 'LoginController'
       })
 
-      .when('/signup',{
+      .when('/signup', {
         templateUrl: 'views/signupView.html',
         controller: 'SignupController'
       })
